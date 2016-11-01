@@ -1,2 +1,2 @@
-Instruction per cycle of GPU
+# Instruction per cycle of GPU
 
