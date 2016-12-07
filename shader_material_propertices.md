@@ -31,6 +31,7 @@ Shader "Custom/Example"
 }```
 
 ![](스크린샷 2016-12-07 오후 11.56.48.png)
+
 When implementing your own drawers, you should override OnGUI function. You can also optionally override GetPropertyHeight and Apply functions. Here's an example of a property drawer that displays a checkbox for a float property, with the value set to 0 or 1 depending on the state:
 
 ```using UnityEngine;
