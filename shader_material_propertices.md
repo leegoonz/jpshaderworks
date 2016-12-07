@@ -10,7 +10,8 @@ Use this to create custom UI drawers for your material properties, without havin
 
 In shader code, C#-like attribute syntax can be used in front of shader properties to add drawers to them. Unity has several built-in drawers, and you can write your own. Here's a shader code snippet demonstrating the syntax:
 
-```Shader "Custom/Example" 
+```
+Shader "Custom/Example" 
 {
     Properties
     {
