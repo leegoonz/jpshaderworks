@@ -1,8 +1,10 @@
 
 
-```
+![](/assets/20161218_003408.png)
+
 https://github.com/leegoonz/LayerBlenderShader.git
-```
+
+
 
 ```
 Shader "Tianyu Shaders/Ground/TextureBlend/Texture Blender 3 Layered"
