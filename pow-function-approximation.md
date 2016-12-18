@@ -1,2 +1,3 @@
-## Pow function approximation for shader.
+### simple Pow
+Pow function approximation for shader.
 
