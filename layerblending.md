@@ -150,9 +150,8 @@ Shader "Tianyu Shaders/Ground/TextureBlend/Texture Blender 3 Layered"
 
 ```
 
-## Blending function
-### [Simple Pow](Simple-pow.md)
 
+###[SIMPLE POW](Simple-pow.md)
 
 
 
