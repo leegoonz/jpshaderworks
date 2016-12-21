@@ -1,4 +1,4 @@
-# SIMPLE SHADER FUCN COLLECTION.
+# SIMPLE SHADER FUCN COLLECTION. {#fresnel-stable}
 
 Stable code of fresnel func.
 
