@@ -6,4 +6,5 @@
 * [LayerBlending](layerblending.md)
 * [CrossFadeDither](crossfadedither.md)
 * [Simple shader func](simple-shader-func.md)
+* [Add to UV2 texcoord into surface shader](add-to-uv2-texcoord-into-surface-shader.md)
 
