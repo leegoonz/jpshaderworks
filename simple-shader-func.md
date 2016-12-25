@@ -22,7 +22,7 @@ inline half3 GammaToLinearSimple(half3 sRGB)
 }
 ```
 
-## GammaToLinear Unity approximation
+### GammaToLinear Unity approximation
 
 ```
 inline half3 GammaToLinear(half3 sRGB)
