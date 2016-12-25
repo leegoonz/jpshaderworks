@@ -12,5 +12,9 @@ Stable code of fresnel func.
 #endif
 ```
 
+Pow approximation func.
+
+
+
 
 
