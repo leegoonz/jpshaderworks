@@ -1,4 +1,4 @@
-## SIMPLE SHADER FUNCTION COLLECTION.
+## TWEAK SHADER FUNCTION COLLECTION.
 
 ### Stable code of fresnel func.
 
