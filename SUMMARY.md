@@ -5,6 +5,6 @@
 * [Shader Material Propertices](shader_material_propertices.md)
 * [LayerBlending](layerblending.md)
 * [CrossFadeDither](crossfadedither.md)
-* [Simple shader func](simple-shader-func.md)
+* [TWEAK SHADER FUNCTION COLLECTION.](simple-shader-func.md)
 * [Add to UV2 texcoord into surface shader](add-to-uv2-texcoord-into-surface-shader.md)
 
