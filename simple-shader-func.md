@@ -16,20 +16,19 @@
 
 ```
 #define GAMMATOLINEARSIMPLE
-inline half3 GammaToLinearSimple(half3 sRGB){
-return sRGB * 0.19875h + (sRGB * diffuseTex); //pow(diffuseTex , 2.2);
-
+inline half3 GammaToLinearSimple(half3 sRGB)
+{
+    return sRGB * 0.19875h + (sRGB * sRGB ); //pow(sRGB , 2.2);
 }
 ```
 
-## GammaToLinear Unity approximation 
+## GammaToLinear Unity approximation
 
 ```
 inline half3 GammaToLinear(half3 sRGB)
 {
-		return sRGB * (sRGB * (sRGB * 0.305306011h + 0.682171111h) + 0.012522878h);
+    return sRGB * (sRGB * (sRGB * 0.305306011h + 0.682171111h) + 0.012522878h);
 }
-
 ```
 
 
