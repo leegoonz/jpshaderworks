@@ -1,6 +1,6 @@
-# SIMPLE SHADER FUCN COLLECTION. {#fresnel-stable}
+## SIMPLE SHADER FUCN COLLECTION.
 
-Stable code of fresnel func.
+### Stable code of fresnel func.
 
 ```
 #if _HITEFFECT_ON
@@ -12,9 +12,15 @@ Stable code of fresnel func.
 #endif
 ```
 
-Pow approximation func.
+### Pow approximation func.
 
-
+```
+#define GAMMATOLINEARSIMPLE
+inline half3 GammaToLinearSimple(half3 sRGB){
+sRGB =  ( sRGB * 0.19875) + (sRGB * diffuseTex); //pow(diffuseTex , 2.2);
+return sRGB;
+}
+```
 
 
 
