@@ -131,3 +131,26 @@ Header creates a header text before the shader property.
 Note that for performance reasons, EditorGUILayout functions are not usable with MaterialPropertyDrawers.
 
 See Also: MaterialProperty class.
+
+## Property attributes and drawers
+
+In front of any property, optional attributes in square brackets can be specified. These are either attributes recognized by Unity, or they can indicate your own MaterialPropertyDrawer classes to control how they should be rendered in the material inspector. Attributes recognized by Unity:
+
+
+
+```
+[HideInInspector] - does not show the property value in the material inspector.
+
+[NoScaleOffset] - material inspector will not show texture tiling/offset fields for texture properties with this attribute.
+
+[Normal] - indicates that a texture property expects a normal-map.
+
+[HDR] - indicates that a texture property expects a high-dynamic range (HDR) texture.
+
+[Gamma] - indicates that a float/vector property is specified as sRGB value in the UI (just like colors are), and possibly needs conversion according to color space used. See Properties in Shader Programs.
+
+[PerRendererData] - indicates that a texture property will be coming from per-renderer data in the form of a MaterialPropertyBlock. Material inspector changes the texture slot UI for these properties.
+```
+
+
+
