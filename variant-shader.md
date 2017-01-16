@@ -1,4 +1,4 @@
-#VARIANT OF SHADER#
+##VARIANT OF SHADER##
 ###Code generation options### 
 - by default generated surface shader code tries to handle all possible lighting/shadowing/lightmap scenarios. However in some cases you know you won’t need some of them, and it is possible to adjust generated code to skip them. This can result in smaller shaders that are faster to load.
 
