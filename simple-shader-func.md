@@ -31,6 +31,26 @@ inline half3 GammaToLinear(half3 sRGB)
 }
 ```
 
+
+
+NormalBlenderWithMask function.
+
+```
+//Normal blender common function by jp shader function library 
+inline fixed3 fNormalBlender( v2f_pangu i , sampler2D normalA , sampler2D normalB , sampler2D blendTex , fixed blendScale)
+{
+    fixed4 t1b = tex2D (normalA, i.uv);
+    fixed4 t2b = tex2D (normalB, i.uv);
+    fixed4 rgb = tex2D (blendTex, i.uv);
+    fixed scale = blendScale;
+    fixed4 nrm = t1b * rgb.r + t2b * rgb.g;
+    nrm = lerp(fixed4(0,0,0,0), nrm, scale);
+    return UnpackNormal(normalize(nrm));
+}
+```
+
+### 
+
 ### Optimal Int Pow function
 
 ```
