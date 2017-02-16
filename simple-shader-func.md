@@ -7,7 +7,7 @@
 >     float2 uv    : TEXCOORD0;
 > };
 > ```
-
+>
 > ### Stable code of fresnel func.
 >
 > ```
@@ -19,7 +19,7 @@
 >         o.Albedo;
 > #endif
 > ```
-
+>
 > ### Gamma to Linear approximation func.
 >
 > ```
@@ -29,7 +29,7 @@
 >     return sRGB * 0.19875h + (sRGB * sRGB ); //pow(sRGB , 2.2);
 > }
 > ```
-
+>
 > ### GammaToLinear Unity approximation
 >
 > ```
@@ -38,19 +38,15 @@
 >     return sRGB * (sRGB * (sRGB * 0.305306011h + 0.682171111h) + 0.012522878h);
 > }
 > ```
-
+>
 > ### NormalBlenderWithMask function.
 >
 > ```
 > //Normal blender common function by jp shader function library 
-> inline fixed3 fNormalBlender( v2f_pangu i , sampler2D normalA , sampler2D normalB , sampler2D blendTex , fixed blendScale)
+> inline fixed3 fNormalBlender( v2f_pangu i , fixed4 normalA , fixed4 normalB , fixed4 blendTex , fixed blendScale)
 > {
->     fixed4 t1b = tex2D (normalA, i.uv);
->     fixed4 t2b = tex2D (normalB, i.uv);
->     fixed4 rgb = tex2D (blendTex, i.uv);
->     fixed scale = blendScale;
->     fixed4 nrm = t1b * rgb.r + t2b * rgb.g;
->     nrm = lerp(fixed4(0,0,0,0), nrm, scale);
+>     fixed4 nrm = normalA * blendTex.r + normalB * blendTex.g;
+>     nrm = lerp(fixed4(0,0,0,0), nrm, blendScale);
 >     return UnpackNormal(normalize(nrm));
 > }
 > ```
