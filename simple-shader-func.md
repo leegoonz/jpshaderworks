@@ -31,9 +31,7 @@ inline half3 GammaToLinear(half3 sRGB)
 }
 ```
 
-
-
-NormalBlenderWithMask function.
+### NormalBlenderWithMask function.
 
 ```
 //Normal blender common function by jp shader function library 
