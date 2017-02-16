@@ -45,8 +45,7 @@
 > //Normal blender common function by jp shader function library 
 > inline fixed3 fNormalBlender( fixed4 normalA , fixed4 normalB , fixed4 color , fixed blendScale)
 > {
->     fixed4 nrm = normalA * color.r + normalB * color.g;
->     nrm = lerp(fixed4(0,0,0,0), nrm, blendScale);
+>     fixed4 nrm = normalA * (color.r + (1 - blendScale))  +  normalB * (color.g) ;
 >     return UnpackNormal(normalize(nrm));
 > }
 > ```
