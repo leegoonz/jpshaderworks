@@ -1,5 +1,13 @@
 ## TWEAK SHADER FUNCTION COLLECTION.
 
+### Custom Common Structure.
+
+```
+struct v2f_pangu {
+	float2 uv	: TEXCOORD0;
+};
+```
+
 ### Stable code of fresnel func.
 
 ```
