@@ -1,4 +1,4 @@
-### TextureLayerHeightBlending
+## TextureLayerHeightBlending
 
 ```
 void surf(Input IN, inout SurfaceOutput o) 
@@ -21,7 +21,9 @@ void surf(Input IN, inout SurfaceOutput o)
     }
 ```
 
-### Related code
+## Related code
 
-[Tweak shader function for the custom shaders.](/simple-shader-func.md)
+### [Tweak shader function for the custom shaders.](/simple-shader-func.md)
+
+
 
