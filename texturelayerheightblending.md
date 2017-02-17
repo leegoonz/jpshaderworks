@@ -21,9 +21,7 @@ void surf(Input IN, inout SurfaceOutput o)
     }
 ```
 
-
-
 ### Related code
 
-[/simple-shader-func.md](/simple-shader-func.md)
+Tweak shader function for the custom shaders.
 
