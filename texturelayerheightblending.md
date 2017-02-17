@@ -1,4 +1,4 @@
-## Texture2LayerHeightBlending
+## Texture2LayerHeightBlending.Simple
 
 ```
 void surf(Input IN, inout SurfaceOutput o) 
