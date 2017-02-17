@@ -1,4 +1,4 @@
-## Texture2LayerHeightBlending.Simple
+### Texture2LayerHeightBlending.Simple
 
 ```
 void surf(Input IN, inout SurfaceOutput o) 
@@ -52,8 +52,6 @@ void surf(Input IN, inout SurfaceOutput o)
 > ## Related code
 >
 > #### [Tweak shader function for the custom shaders.](/simple-shader-func.md)
-
-
 
 
 
