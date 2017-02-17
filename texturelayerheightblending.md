@@ -23,7 +23,7 @@ void surf(Input IN, inout SurfaceOutput o)
 
 
 
-Related code
+### Related code
 
 [/simple-shader-func.md](/simple-shader-func.md)
 
