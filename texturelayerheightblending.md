@@ -23,7 +23,7 @@ void surf(Input IN, inout SurfaceOutput o)
 
 ---
 
-## Texture2LayerHeightBlending.2NormalBleding
+### Texture2LayerHeightBlending.2NormalBleding
 
 ```
 void surf(Input IN, inout SurfaceOutput o)
