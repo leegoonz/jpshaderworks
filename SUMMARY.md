@@ -9,5 +9,5 @@
 * [Add to UV2 texcoord into surface shader](add-to-uv2-texcoord-into-surface-shader.md)
 * [Surface Coat shader for Mobile](surface-coat-shader-for-mobile.md)
 * [Variant shader](variant-shader.md)
-* [TextureLayerHeightBlending](texturelayerheightblending.md)
+* [TEXTURE LAYER BLENDING](texturelayerheightblending.md)
 
