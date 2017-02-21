@@ -11,5 +11,5 @@
 * [Variant shader](variant-shader.md)
 * [TEXTURE LAYER BLENDING\(VertexBlending\)](texturelayerheightblending.md)
 * [FOLIAGE SHADER FAMILY](foliage-shader-family.md)
-* [TEXTURE LAYER BLENDING\(RGB Splat blending Support\)](texture-layer-blending(rgb-splat-blending-support)
+* [TEXTURE LAYER SPLAT BLENDING ](texture-layer-splat-blending.md)
 
