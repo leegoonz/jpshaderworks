@@ -1,3 +1,5 @@
+## Support to Vertex Color RGB blending.
+
 ### Texture2LayerHeightBlending.Simple
 
 ```
