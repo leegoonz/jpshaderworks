@@ -49,7 +49,7 @@
 >     return UnpackNormal(normalize(nrm));
 > }
 > ```
-
+>
 > ### Fresnel limited approximation function
 >
 > ```
@@ -59,6 +59,10 @@
 > return rc + rc;
 > ```
 
+![](/assets/20170223_001128.jpg)&lt;jpFresnel&gt;
+
+> ### 
+>
 > ### Optimal Int Pow function
 >
 > ```
