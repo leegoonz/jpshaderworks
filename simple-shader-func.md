@@ -50,7 +50,14 @@
 > }
 > ```
 
-### 
+> ### Fresnel limited approximation function
+>
+> ```
+> //mobile friendly and stable code
+> fixed jpFresnel = 1- max(min(dot(normalize(ViewDir), Normal), 1), 0);
+> fixed rc = 5 * FresnelScale * (jpFresnel * jpFresnel * 0.05);
+> return rc + rc;
+> ```
 
 > ### Optimal Int Pow function
 >
