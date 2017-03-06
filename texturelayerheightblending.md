@@ -27,7 +27,7 @@ void surf(Input IN, inout SurfaceOutput o)
 
 ### ![](/assets/20170218_012312.jpg)
 
-### Texture2LayerHeightBlending.2NormalBleding
+### Texture2LayerHeightBlending.2NormalBleding \(Modular Blending \)
 
 ```
 void surf(Input IN, inout SurfaceOutput o)
