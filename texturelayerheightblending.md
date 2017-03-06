@@ -57,11 +57,7 @@ void surf(Input IN, inout SurfaceOutput o)
 >
 > ##### [Tweak shader function for the custom shaders.](/simple-shader-func.md)
 
-
-
-### Texture3LayerBlending.1NormalBlending
-
-
+### 
 
 
 
