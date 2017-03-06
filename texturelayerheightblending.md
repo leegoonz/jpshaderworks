@@ -27,7 +27,7 @@ void surf(Input IN, inout SurfaceOutput o)
 
 ### ![](/assets/20170218_012312.jpg)
 
-### Texture2LayerHeightBlending.2NormalBleding \(Modular Blending \)
+### Texture2LayerHeightBlending.2NormalBlending \(Modular Blending \)
 
 ```
 void surf(Input IN, inout SurfaceOutput o)
@@ -56,6 +56,12 @@ void surf(Input IN, inout SurfaceOutput o)
 > #### Related code
 >
 > ##### [Tweak shader function for the custom shaders.](/simple-shader-func.md)
+
+
+
+### Texture3LayerBlending.1NormalBlending
+
+
 
 
 
