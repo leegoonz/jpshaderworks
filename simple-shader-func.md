@@ -105,9 +105,21 @@ related blog : [http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-sta
 
 
 
-
-
 Terrain RGB Blending assistant function.
+
+Edge Soft
+
+```
+factorRed = 1.0 - factorBlue - factorGreen;
+```
+
+
+
+Edge Correct.
+
+```
+fixed correctionFactor = 1 / (factorRed + factorGreen + factorBlue);
+```
 
 
 
