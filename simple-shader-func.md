@@ -111,7 +111,7 @@ Terrain RGB Blending assistant function.
 factorRed = 1.0 - factorBlue - factorGreen;
 ```
 
-> ### Edge Correct.
+> ### sRGB Splat Edge Correct.
 >
 > ```
 > fixed correctionFactor = 1 / (factorRed + factorGreen + factorBlue);
