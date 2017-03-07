@@ -121,7 +121,7 @@ factorRed = 1.0 - factorBlue - factorGreen;
 >
 > Reproduce of basic problem.
 >
-> Below case is sGRB flag mode on the LinearSpace rendering.![](/assets/20170307_215248.jpg)
+> Below case is sGRB flag mode on the LinearSpace rendering.![](/assets/20170307_215248.jpg)\#Blending area some darker.
 >
 > ShaderForge using node.![](/assets/sf_rgb_blendingcorrection_372017.jpg)This case that just for state of the sRGB splat map mode as not linear space.
 >
