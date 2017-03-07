@@ -126,6 +126,8 @@ factorRed = 1.0 - factorBlue - factorGreen;
 > ShaderForge using node.![](/assets/sf_rgb_blendingcorrection_372017.jpg)This case that just for state of the sRGB splat map mode as not linear space.
 >
 > Using custom code in ShaderForge.![](/assets/sf_rgb_blendingcorrection_372018.jpg)
+>
+> Also... If you already to used to linear space based splat map those it exactly useless but When you developed to low-end devices as for the mobile project it seems like I guess useful.
 
 
 
