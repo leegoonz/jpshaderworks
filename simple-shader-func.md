@@ -103,8 +103,6 @@ related blog : [http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-sta
 > }
 > ```
 
-
-
 Terrain RGB Blending assistant function.
 
 Edge Soft
@@ -113,13 +111,21 @@ Edge Soft
 factorRed = 1.0 - factorBlue - factorGreen;
 ```
 
-
-
-Edge Correct.
-
-```
-fixed correctionFactor = 1 / (factorRed + factorGreen + factorBlue);
-```
+> Edge Correct.
+>
+> ```
+> fixed correctionFactor = 1 / (factorRed + factorGreen + factorBlue);
+> ```
+>
+> Why those it need for...
+>
+> Reproduce of basic problem.
+>
+>
+>
+> ShaderForge using node.![](/assets/sf_rgb_blendingcorrection_372017.jpg)This case that just for state of the sRGB splat map mode as not linear space.
+>
+> Using custom code in ShaderForge.![](/assets/sf_rgb_blendingcorrection_372018.jpg)
 
 
 
