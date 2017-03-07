@@ -63,8 +63,12 @@
 
 related blog : [http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-stable-and-fast-Fresnel-constant-approximation](http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-stable-and-fast-Fresnel-constant-approximation)
 
-> ### 
->
+
+
+
+
+
+
 > ### Optimal Int Pow function
 >
 > ```
