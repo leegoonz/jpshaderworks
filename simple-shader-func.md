@@ -105,13 +105,11 @@ related blog : [http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-sta
 
 Terrain RGB Blending assistant function.
 
-### Edge Soft
+### Edge Softness modulate blending.
 
 ```
 factorRed = 1.0 - factorBlue - factorGreen;
 ```
-
-
 
 > ### Edge Correct.
 >
