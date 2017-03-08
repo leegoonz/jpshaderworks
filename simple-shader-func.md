@@ -125,11 +125,7 @@ factorRed = 1.0 - factorBlue - factorGreen;
 >
 > Using custom code in ShaderForge.![](/assets/sf_rgb_blendingcorrection_372018.jpg)
 >
-> Also... If you already to used to linear space based splat map those it exactly useless but When you developed to low-end devices as for the mobile project it seems like I guess useful.
-
-> ### **Optimal divide.**
->
-> Float to Int optimal basic for the correction code at above.![](/assets/ChangeIntDivide.png)
+> Also... If you already to used to linear space based splat map those it exactly useless but When you developed to low-end devices as for the mobile project it seems like I guess useful.o Int optimal basic for the correction code at above.
 
 
 
