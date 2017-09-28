@@ -39,6 +39,26 @@
 > }
 > ```
 >
+> ### Fast Lerp
+>
+> ```
+> //fast lerp simple function
+> inline fixed flerp(fixed a, fixed b, fixed t)
+> {
+> 	return a * (1 - t) + b * t;
+> }
+>
+> inline fixed3 flerp(fixed3 a, fixed3 b, fixed t)
+> {
+> 	return a * (1 - t) + b * t;
+> }
+>
+> inline fixed4 flerp(fixed4 a, fixed4 b, fixed t)
+> {
+> 	return a * (1 - t) + b * t;
+> }
+> ```
+
 > ### NormalBlenderWithMask function.
 >
 > ```
