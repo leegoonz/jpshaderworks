@@ -12,6 +12,5 @@
 * [TEXTURE LAYER BLENDING\(VertexBlending\)](texturelayerheightblending.md)
 * [FOLIAGE SHADER FAMILY](foliage-shader-family.md)
 * [TEXTURE LAYER SPLAT BLENDING ](texture-layer-splat-blending.md)
-* [PROP SHADER](prop-shader.md)
 * [Custom LightMap decode for depth stable unlit shader.](custom-lightmap-decode-for-depth-stable-unlit-shader.md)
 
