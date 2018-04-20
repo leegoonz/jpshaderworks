@@ -1,5 +1,22 @@
 ## TWEAK SHADER FUNCTION COLLECTION.
 
+> ### Custom Normal Scale with Height data
+>
+> ```
+> inline half3 UnpackNormalX2M(half2 packednormal)
+> 		{
+> 			#if _GLOBALSCALNORAL
+> 				return normalize(half3(packednormal.xy * 2 - 1, clamp(1 - _BumpScale, 0.2, 0.8)));
+> 			#else
+> 				return normalize(half3(packednormal.xy * 2 - 1, 0.7));
+> 			#endif
+> 		}
+> ```
+>
+> ### [https://youtu.be/VXH8r0BFdmU](https://youtu.be/VXH8r0BFdmU)
+>
+> ### 
+>
 > ### Custom Common Structure.
 >
 > ```
@@ -45,20 +62,20 @@
 > //fast lerp simple function
 > inline fixed flerp(fixed a, fixed b, fixed t)
 > {
-> 	return a * (1 - t) + b * t;
+>     return a * (1 - t) + b * t;
 > }
 >
 > inline fixed3 flerp(fixed3 a, fixed3 b, fixed t)
 > {
-> 	return a * (1 - t) + b * t;
+>     return a * (1 - t) + b * t;
 > }
 >
 > inline fixed4 flerp(fixed4 a, fixed4 b, fixed t)
 > {
-> 	return a * (1 - t) + b * t;
+>     return a * (1 - t) + b * t;
 > }
 > ```
-
+>
 > ### NormalBlenderWithMask function.
 >
 > ```
