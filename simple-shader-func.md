@@ -1,16 +1,30 @@
 ## TWEAK SHADER FUNCTION COLLECTION.
 
+
+
+> ### Custom fresnel based back light function.
+>
+> ```cpp
+> half3 FresnelLighting(half3 Normal, half3 viewDir, half fresnelScale, half3 fresnelStrength, half3 fresnelColor, half uvY, int lowerVectorMask)
+> {
+> 	half3 result = ((pow(1.0 - dot(Normal, viewDir), fresnelScale)) * fresnelStrength) * fresnelColor * (pow(uvY, lowerVectorMask));
+> 	return max(result, 0);
+> }
+> ```
+>
+> ### Fresnel based back light Shader node![](/assets/2018-06-23_20-38-26.png)![](https://cdna.artstation.com/p/assets/images/images/011/472/216/large/jp-lee-2018-06-23-20-34-56.jpg?1529757468)
+>
 > ### Custom Normal Scale with Height data
 >
 > ```
 > inline half3 UnpackNormalX2M(half2 packednormal)
-> 		{
-> 			#if _GLOBALSCALNORAL
-> 				return normalize(half3(packednormal.xy * 2 - 1, clamp(1 - _BumpScale, 0.2, 0.8)));
-> 			#else
-> 				return normalize(half3(packednormal.xy * 2 - 1, 0.7));
-> 			#endif
-> 		}
+>         {
+>             #if _GLOBALSCALNORAL
+>                 return normalize(half3(packednormal.xy * 2 - 1, clamp(1 - _BumpScale, 0.2, 0.8)));
+>             #else
+>                 return normalize(half3(packednormal.xy * 2 - 1, 0.7));
+>             #endif
+>         }
 > ```
 >
 > ### [https://youtu.be/VXH8r0BFdmU](https://youtu.be/VXH8r0BFdmU)
