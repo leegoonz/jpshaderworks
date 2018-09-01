@@ -1,14 +1,12 @@
 ## TWEAK SHADER FUNCTION COLLECTION.
 
-
-
 > ### Custom fresnel based back light function.
 >
 > ```cpp
 > half3 FresnelLighting(half3 Normal, half3 viewDir, half fresnelScale, half3 fresnelStrength, half3 fresnelColor, half uvY, int lowerVectorMask)
 > {
-> 	half3 result = ((pow(1.0 - dot(Normal, viewDir), fresnelScale)) * fresnelStrength) * fresnelColor * (pow(uvY, lowerVectorMask));
-> 	return max(result, 0);
+>     half3 result = ((pow(1.0 - dot(Normal, viewDir), fresnelScale)) * fresnelStrength) * fresnelColor * (pow(uvY, lowerVectorMask));
+>     return max(result, 0);
 > }
 > ```
 >
@@ -113,46 +111,6 @@
 ![](/assets/20170223_001128.jpg)&lt;jpFresnel&gt;
 
 related blog : [http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-stable-and-fast-Fresnel-constant-approximation](http://www.leegoonz.com/single-post/2017/02/22/Custom-Mobile-stable-and-fast-Fresnel-constant-approximation)
-
-> ### Optimal Int Pow function
->
-> ```
-> inline fixed fPow(fixed x, uint y)
-> {
->     if (y == 0)return 1;
->     if (y == 1)
->         return x;
->         float x2 = x * x;
->     if (y == 2)return x2;
->     if (y == 3)
->         return x2 * x;
->         float x4 = x2 * x2;
->     if (y == 4)return x4;
->     if (y == 5)return x4 * x;
->     if (y == 6)return x4 * x2;
->     if (y == 7)
->         return x4 * x2 * x;
->         float x8 = x4 * x4;
->     if (y == 8)return x8;
->     if (y == 9)return x8 * x;
->     if (y == 10)return x8 * x2;
->     if (y == 11)return x8 * x2 * x;
->     if (y == 12)return x8 * x4;
->     if (y == 13)return x8 * x4 * x;
->     if (y == 14)
->         return x8 * x4 * x2;
->         float x16 = x8 * x8;
->     if (y == 16)return x16;
->     if (y == 17)return x16 * x;
->     if (y == 18)return x16 * x2;
->     if (y == 20)return x16 * x4;
->     if (y == 24)return x16 * x8;
->     if (y == 32)return x16 * x16;
->     return pow(x, y);
-> }
-> ```
-
-Terrain RGB Blending assistant function.
 
 ### Edge Softness modulate blending.
 
