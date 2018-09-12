@@ -14,4 +14,5 @@
 * [TEXTURE LAYER SPLAT BLENDING ](texture-layer-splat-blending.md)
 * [Custom LightMap decode for depth stable unlit shader.](custom-lightmap-decode-for-depth-stable-unlit-shader.md)
 * [Eyeball shader custom lighting](eyeball-shader-custom-lighting.md)
+* [\(Fixed\) Unique Shadow by BlackSmith demo](fixed-unique-shadow-by-blacksmith-demo.md)
 
